@@ -24,3 +24,4 @@ class knnclassifier:
 
         acc = np.mean(y_pred == self.y)
         cache = {"output" : y_pred, "accuracy" : acc}
+        return cache 
